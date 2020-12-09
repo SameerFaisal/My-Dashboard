@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;600;800&display=swap');
+
+ body{
+     font-family: 'Trispace', sans-serif;
+ }
+
+ /* this property and class is for svg */
+ text{
+     fill:white;
+     font-size:11px;
+ }
+
+ .TopHeader{
+     background-color:green;
+     margin-bottom: 20px;
+     padding: 10px 12px;
+     font-size: 24px;
+     text-align: left;
+ }
+
+ .dropDown{
+     font-size : 15px;
+     width:142px;
+     float : right
+ }
+
+.widgetWrap{
+    height: 182px;
+    margin-bottom:  20px;
+    background-color: #2a2a2a;
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.widgetTitle {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-bottom: 1px solid #757070;  
+    color:#b6b6e3;  
+}
+
+.widgetValue .value {
+    display:flex;
+    align-items: center;
+    height: 143px;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 2px 10px;
+    line-height: 100%;
+    color:yellow;
+}
+
+.Heading {
+    /* width: 90%;
+    background: #2a2a2a; */
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    color: ghostwhite;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: italic; 
+    /* border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem; */
+}
